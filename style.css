@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(225, 234, 237);
+  font-family: "Inter", sans-serif;
+}
+.year-input,
+#movie-name {
+  width: 20vw;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 15px 12px 15px;
+}
+
+#search-btn {
+  width: 15vw;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+}
+
+.container {
+  margin: 10px;
+  padding: 20px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#result {
+  background-color: rgb(240, 234, 227);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+.info {
+  background-color: rgb(195, 204, 212);
+  border-radius: 3%;
+  box-shadow: -4px 9px 5px 0px rgba(0, 0, 0, 0.29);
+  width: 24em;
+  margin: 30px;
+  padding-top: 7px;
+}
+.poster {
+  box-shadow: 10px 10px 24px -7px #276873;
+  border-radius: 3%;
+}
